@@ -12,9 +12,9 @@ function tweetIt() {
   var m = date.getMinutes();
   var mo= date.getMonth();
   var da = date.getDate();
-  if ( h == SOME HOUR && m == SOME MINUTE) {
+  if ( h == /*SOME HOUR*/ && m == /*SOME MINUTE*/) {
     var r = Math.floor(Math.random()*100);
-    if ( mo == SOME MONTH && da == SOME DATE ) {
+    if ( mo == /*SOME MONTH*/ && da == /*SOME DATE*/ ) {
       var tweet = {
         status: 'SOME TWEET'
       }
